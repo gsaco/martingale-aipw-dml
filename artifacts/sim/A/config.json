@@ -1,0 +1,30 @@
+{
+  "global": {
+    "seed": 12345,
+    "alpha": 0.05,
+    "n_list": [
+      250,
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "n_reps": 1000,
+    "n_jobs": -1,
+    "artifacts_dir": "artifacts/sim",
+    "tables_dir": "tables",
+    "figures_dir": "figures"
+  },
+  "design": {
+    "name": "A",
+    "n0": 50,
+    "tau": 0.0,
+    "sigma0": 1.0,
+    "sigma1": 3.0,
+    "pi_low": 0.2,
+    "pi_high": 0.8,
+    "pi_burn": 0.5,
+    "fixed_pi": 0.5,
+    "n_list_override": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "global": {
+    "mode": "paper",
+    "seed": 12345,
+    "alpha": 0.05,
+    "n_list": [
+      250,
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "fast_n_list": [
+      250,
+      500
+    ],
+    "paper_R": 1000,
+    "fast_R": 50,
+    "n_jobs": -1,
+    "artifacts_dir": "artifacts/sim",
+    "tables_dir": "tables",
+    "figures_dir": "figures"
+  },
+  "design": {
+    "name": "C",
+    "n0": 100,
+    "block_size": 50,
+    "eps": 0.1,
+    "lam": 1.0,
+    "clip_low": 0.1,
+    "clip_high": 0.9,
+    "sigma": 1.0,
+    "n_list_override": null
+  }
+}

@@ -16,3 +16,26 @@ __pycache__/
 
 # Logs
 *.log
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Executed notebook copies and temporary outputs
+*.executed.ipynb
+artifacts/notebook_runs/
+
+# Temporary simulation directories
+artifacts/_tmp_test_sim/
+artifacts/sim/_old/
+figures/_old/
+tables/_old/
+tables/_tmp_test_sim/
