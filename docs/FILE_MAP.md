@@ -61,13 +61,6 @@ files.
 - Config:
   - `artifacts/sim/D/config.json`
 
-## Figure used in `main.tex`
+## Figure used in the manuscript
 
 - `figures/var_ratio_hist.pdf`
-
-## Legacy outputs
-
-Older draft assets and pre-refactor simulation files are preserved under:
-
-- `archive/legacy/`
-

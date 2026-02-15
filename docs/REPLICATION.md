@@ -1,6 +1,6 @@
 # Replication Guide
 
-This guide reproduces the simulation artifacts used in `main.tex` for Designs
+This guide reproduces the simulation artifacts used in the manuscript for Designs
 `A`, `B`, `C1`, `C2`, and `D`.
 
 ## 1. Environment
@@ -45,6 +45,4 @@ Run validation directly:
 - Design D: `tables/sim_designD.csv`
 - Figure (variance ratio): `figures/var_ratio_hist.pdf`
 
-The current manuscript writes simulation tables directly in `main.tex` (no
-`\input{...}` dependence).
-
+The shared manuscript file in this package is `main.pdf`.

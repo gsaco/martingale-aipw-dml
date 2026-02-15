@@ -1,23 +1,10 @@
-# Virtual environments
 .venv/
-
-# Python bytecode
 __pycache__/
 *.py[cod]
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Test caches
 .pytest_cache/
-
-# OS files
 .DS_Store
-
-# Logs
 *.log
-
-# LaTeX build artifacts
 *.aux
 *.bbl
 *.bcf
@@ -28,12 +15,8 @@ __pycache__/
 *.run.xml
 *.synctex.gz
 *.toc
-
-# Executed notebook copies and temporary outputs
 *.executed.ipynb
 artifacts/notebook_runs/
-
-# Temporary simulation directories
 artifacts/_tmp_test_sim/
 artifacts/sim/_old/
 figures/_old/

@@ -54,7 +54,6 @@ def validate_tables() -> None:
             print(f"[OK] {path} (rows={len(df)}, n_rep={reps[0]})")
             continue
 
-        # Design A conditional table stores per-regime counts instead of n_rep.
         if name == "sim_designA_conditional.csv":
             required_cols = {"n", "method", "count"}
             if not required_cols.issubset(df.columns):
